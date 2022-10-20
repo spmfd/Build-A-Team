@@ -1,0 +1,15 @@
+{
+  "name": "team-generator",
+  "version": "1.0.0",
+  "description": "Generate Cards for team members assigned to project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^24.9.0"
+  }
+}
