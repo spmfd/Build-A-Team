@@ -10,8 +10,11 @@ const DIST_DIR = path.resolve(__dirname, 'dist');
 // Output file path and name
 const outputPath = path.join(DIST_DIR, 'team.html');
 
+const render = require('./src/page-template')
+
 // Array to input team member selections
 const teamMembers = [];
+const idArray = [];
 
 // Function to begin the team Builder
 function gatherTeam() {
@@ -157,7 +160,7 @@ function createFile(){
     if (!fs.existsSync(DIST_DIR)) {
         fs.mkdirSync(DIST_DIR);
     } else {
-        fs.writeFileSync(outputPath, templateHTML(teamMembers), 'utf-8');
+        fs.writeFileSync(outputPath, render(teamMembers), 'utf-8');
         console.log('HTML file created in the dist folder');
     }
 }
