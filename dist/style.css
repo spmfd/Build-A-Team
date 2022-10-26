@@ -1,0 +1,29 @@
+header {
+    background-color: red;
+    text-align: center;
+    color: white;
+    height: 20vh;
+}
+
+h1 {
+    padding-top: 2rem;
+    font-size: 45px;
+}
+
+.card {
+    box-shadow: 5px 10px #888888;
+}
+
+.card-header {
+    background-color: blue;
+    color: white;
+}
+
+.flex-container{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-content: space-around;
+}
