@@ -7,14 +7,13 @@ const fs = require("fs");
 
 // Output Directory
 const DIST_DIR = path.resolve(__dirname, 'dist');
-// Output file path and name
+// Output file path
 const outputPath = path.join(DIST_DIR, 'team.html');
 
 const render = require('./src/page-template')
 
 // Array to input team member selections
 const teamMembers = [];
-const idArray = [];
 
 // Function to begin the team Builder
 function gatherTeam() {
