@@ -15,6 +15,10 @@ Please go to this URL to download the files:
 I have also provided a short video showing the functionality of the program.
 
 
+
+https://user-images.githubusercontent.com/110492974/198200313-078436e3-ba0a-450a-9e51-070e66c01ae4.mp4
+
+
 ## Credits
 
 Big shout out to my teacher and classmates this week on helping me get through the tests. After doing the readme, I was confident I could handle the HTML and dynamic coding but without their help I would have been stuck on the tests even longer than I was.
